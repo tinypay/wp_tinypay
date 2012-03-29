@@ -1,0 +1,36 @@
+.row
+{
+	clear:left;
+	display:block;
+	margin:5px 0pt 0pt;
+	padding:1px 3px;
+	width:400px;
+}
+
+
+a:hover
+{
+	color:#fff;
+}
+
+#user_registration
+{
+	clear:both;
+	display:block;
+}
+
+
+#user_registration label
+{
+        display: block;  /* block float the labels to left column, set a width */
+	float: left; 
+	width: 70px;
+	margin: 0px 10px 0px 5px; 
+	text-align: right; 
+	line-height:1em;
+	font-weight:bold;
+}
+#user_registration input
+{
+	width:250px;
+}

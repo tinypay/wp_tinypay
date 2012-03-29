@@ -1,0 +1,110 @@
+/* Basics */
+
+form input {
+    font-sizex: 11px;
+    borderx: 1px solid #a5acb2;
+} 
+
+
+input, textarea {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+input[type=text],
+input[type=password],
+textarea {
+	background: #fff;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none);
+    border: 1px solid #a5acb2;
+	color: #555;
+	line-height: 1;
+	font-size: 11px;
+}
+
+
+/******* FORM *******/
+.tpmForm{
+	padding-top: 0;
+}
+.tpmForm label{
+	display: block;
+	color: #797979;
+	font-weight: 700;
+	line-height: 14px;
+	font-size: 12px;
+}
+
+.tpmForm label.error{
+	color: #e46c6e;
+}
+.tpmForm input{
+	width: 220px;
+	padding: 6px;
+	color: #949494;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	border: 1px solid #cecece;
+}
+.tpmForm input.error{
+	background: #ffecea;
+	border-color: #e77776;
+}
+.tpmForm textarea{
+	width: 540px;
+	height: 80px;
+	padding: 6px;
+	color: #adaeae;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 12px;
+	border: 1px solid #cecece;
+}
+.tpmForm textarea.error{
+	background: #ffecea;
+	border-color: #e77776;
+}
+.tpmForm div{
+	margin-bottom: 6px;
+}
+
+.tpmForm div div.error{
+	color: #e46c6e;
+}
+.tpmForm #send {
+	width: 100px;
+	background: #1F8BD1;
+	color: #fff;
+	font-weight: 700;
+	font-style: normal;
+	border: 0;
+	cursor: pointer;
+	padding: 4px 8px;
+	font-size: 14px;
+}
+.tpmForm #send:hover{
+	background: #186da5;
+}
+#error{
+	margin-bottom: 20px;
+	border: 1px solid #efefef;
+}
+#error ul{
+	list-style: square;
+	padding: 5px;
+	font-size: 11px;
+}
+#error ul li{
+	list-style-position: inside;
+	line-height: 1.6em;
+}
+#error ul li strong{
+	color: #e46c6d;
+}
+#error.valid ul li strong{
+	color: #93d72e;
+}
+/******* /FORM *******/
